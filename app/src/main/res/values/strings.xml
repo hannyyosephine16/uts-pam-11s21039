@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="dinoDesc">Description Detail</string>
+    <!-- Dino Families Name-->
+    <string name="sauropoda_name">Sauropoda Families</string>
+
+
+    <string name="developer_name">Hanny Yosephine</string>
+    <string name="developer_description">Informatika 21</string>
+    <string name="additional_info">Masih menagmbil mata kuliah PAM dan ikut kelas reguler.</string>
+
+
+</resources>
