@@ -4,27 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MenuActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerviewdino"
-        android:layout_width="0dp"
+        android:id="@+id/recyclerviewTwoDinos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="15dp"
+        android:text="@string/button_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:listitem="@layout/dino_item_list" />
-
-    <!-- Pastikan tombol berada di dalam LinearLayout -->
-    <Button
-        android:id="@+id/btnAbout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Tentang Aplikasi"
-        android:onClick="openAboutActivity" />
+        android:layout_marginBottom="16dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

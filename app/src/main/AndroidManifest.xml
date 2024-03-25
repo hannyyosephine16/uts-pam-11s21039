@@ -13,8 +13,12 @@
         android:theme="@style/Theme.DinoPedia"
         tools:targetApi="31">
         <activity
-            android:name=".AboutActivity"
+            android:name=".MenuActivity"
             android:exported="false" />
+        <activity
+            android:name=".DinoDetailActivity"
+            android:exported="false" /> <!-- AboutActivity adalah activity kedua yang akan dijalankan -->
+        <activity android:name=".AboutActivity" /> <!-- MainActivity adalah activity pertama yang akan dijalankan -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
